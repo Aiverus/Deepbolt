@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
-import L from 'leaflet';
+import * as L from 'leaflet';
 import { Pin } from '../types';
 import { useAuth } from '../hooks/useAuth';
 
